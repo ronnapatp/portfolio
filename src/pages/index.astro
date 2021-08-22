@@ -15,7 +15,7 @@ const featuredProject = projects[0];
 ---
 <html lang="en">
   <head>
-    <MainHead title="Jeanine White: Personal Site" />
+    <MainHead title="HOME | Ronnapat Srivoravilai" />
     <style lang="scss">
       $w-s: 750px;
 
@@ -178,6 +178,9 @@ const featuredProject = projects[0];
           font-size: var(--f-u4);
         }
       }
+      .head{
+        color: grey;
+      }
     </style>
   </head>
   <body>
@@ -198,26 +201,16 @@ const featuredProject = projects[0];
       <div class="gradient2" />
       <div class="overlay">
         <h1 class="title">
-          <small class="subtitle">The personal site of </small>Jeanine White
+          <small class="subtitle">The personal site of </small>Ronnapat Srivoravilai
         </h1>
-        <div>
-          <span class="role">
-            👩‍💻 Developer <span class="invert">👩‍💻 Developer</span>
-          </span>&nbsp;
-          <span class="role">
-            🎤 Speaker <span class="invert">🎤 Speaker</span>
-          </span>&nbsp;
-          <span class="role">
-            ✏️ Writer <span class="invert">✏️ Writer</span>
-          </span>
-        </div>
-        <p class="desc">Lover of dogs, roadtrips, and poetry.</p>
+
+        <p class="desc">See my blog at <a href="https://ronnapatpblog.netlify.app/" target="_blank" class="head">ronnapatp blog</a></p>
       </div>
     </header>
     <main class="wrapper mt4 mb4">
       <div class="grid">
         <div class="section">
-          <h3 class="sectionTitle">Selected Work</h3>
+          <h3 class="sectionTitle">My project</h3>
           <PorfolioPreview project={featuredProject} />
           <div class="tac mt4">
             <a href="/projects">
@@ -228,11 +221,7 @@ const featuredProject = projects[0];
         <div class="section">
           <h3 class="sectionTitle">About me</h3>
           <p class="bio">
-            <span>Hello!</span> I’m Jeanine, and this is my website. It was made using{' '}
-            <a href="https://github.com/snowpackjs/astro" target="_blank" rel="nofollow">
-              Astro
-            </a>
-            , a new way to build static sites. This is just an example template for you to modify.
+            <span>Hello!</span> I’m Ronnapat, and this is my portfolio website.
           </p>
           <p>
             <a href="/about">Read more</a>
