@@ -32,5 +32,5 @@ Kaolad is my friend dog
 - announcement
 - rules
 - roles
-- warn(Coming Soon!)
+- warn
 - joke(Coming soon!)
